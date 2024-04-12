@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#weather {
+    margin-top: 20px;
+}
+/* Add these styles to your existing style.css file */
+
+.location-selector {
+    text-align: center;
+}
+
+.location-selector input[type="text"] {
+    width: 70%; 
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.location-selector button {
+    width: 100px; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-selector button:hover {
+    background-color: #0056b3; 
+}
