@@ -10,8 +10,22 @@ function handleSearch() {
 }
 
 // Function to get weather data based on location
-function getWeather(location) {
-    const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${location}&lat=${location}&product=astro&output=json`;
+// function getWeather(location) {
+//     const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${location}&lat=${location}&product=astro&output=json`;
+
+//     fetch(apiUrl)
+//         .then(response => response.json())
+//         .then(data => {
+//             displayWeather(data);
+//         })
+//         .catch(error => {
+//             console.log('Error fetching weather data:', error);
+//         });
+// }
+
+//function to get weather data based on long and lat of the location
+function getWeather(latitude, longitude) {
+    const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=astro&output=json`;
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -22,6 +36,7 @@ function getWeather(location) {
             console.log('Error fetching weather data:', error);
         });
 }
+
 
 // Add event listener to the search button
 document.getElementById("searchButton").addEventListener("click", handleSearch);
