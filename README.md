@@ -9,5 +9,12 @@
 Display current weather information based on user's location.
 Show temperature and humidity for the users location.
 
+###Technologies used
+-HTML
+-CSS
+-Java Script
+
+
+
 
   
