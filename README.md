@@ -14,6 +14,12 @@ Show temperature and humidity for the users location.
 -CSS
 -Java Script
 
+###Usage
+When the app loads, it will automatically fetch weather information based on the user's current location.
+To search for weather information for a specific location, enter the location in the search input field and click the "Search" button.
+The app will display the temperature, description, and humidity for the selected location.
+
+
 
 
 
