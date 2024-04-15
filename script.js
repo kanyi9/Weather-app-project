@@ -1,7 +1,4 @@
- // Call getWeather function when the page loads
-// window.onload = function() {
-//     getWeather();
-// };
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
