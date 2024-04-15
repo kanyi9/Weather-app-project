@@ -1,11 +1,6 @@
 
 
-
-// //     fetch(apiUrl)
-// //         .then(response => response.json())
-// //         .then(data => {
-// //             displayWeather(data);
-// //         })
+       
 // //         .catch(error => {
 // //             console.log('Error fetching weather data:', error);
 // //         });
