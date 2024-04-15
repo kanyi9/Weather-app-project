@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener("DOMContentLoaded", function() {
     function handleSearch() {
         const locationInput = document.getElementById("locationInput");
