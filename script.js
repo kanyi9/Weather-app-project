@@ -1,7 +1,4 @@
 
-//         <p>Humidity: ${data.dataseries[0].rh2m}%</p>
-//     `;
-// }
 
 // // Call getWeather function when the page loads
 // window.onload = function() {
