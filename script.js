@@ -1,10 +1,7 @@
 
 
        
-// //         .catch(error => {
-// //             console.log('Error fetching weather data:', error);
-// //         });
-// // }
+
 
 // //function to get weather data based on long and lat of the location
 // function getWeather(latitude, longitude) {
