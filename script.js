@@ -1,8 +1,4 @@
 
-// // Function to display weather data
-// function displayWeather(data) {
-//     const weatherDiv = document.getElementById("weather");
-//     weatherDiv.innerHTML = `
 //         <h2>${data.init}</h2>
 //         <p>Temperature: ${data.dataseries[0].temp2m}°C</p>
 //         <p>Description: ${data.dataseries[0].weather}</p>
