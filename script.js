@@ -1,9 +1,4 @@
 
-//         .catch(error => {
-//             console.log('Error fetching weather data:', error);
-//         });
-// }
-
 
 // // Add event listener to the search button
 // document.getElementById("searchButton").addEventListener("click", handleSearch);
