@@ -1,13 +1,4 @@
-// function handleSearch() {
-//     const locationInput = document.getElementById("locationInput");
-//     const location = locationInput.value;
 
-//     if (location.trim() !== "") {
-//         getWeather(location);
-//     } else {
-//         alert("Please enter a location.");
-//     }
-// }
 
 // // Function to get weather data based on location
 // // function getWeather(location) {
