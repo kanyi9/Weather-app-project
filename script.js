@@ -1,7 +1,4 @@
 
-// //function to get weather data based on long and lat of the location
-// function getWeather(latitude, longitude) {
-//     const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=astro&output=json`;
 
 //     fetch(apiUrl)
 //         .then(response => response.json())
