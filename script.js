@@ -1,8 +1,4 @@
 
-
-// // Add event listener to the search button
-// document.getElementById("searchButton").addEventListener("click", handleSearch);
-
 // // Function to display weather data
 // function displayWeather(data) {
 //     const weatherDiv = document.getElementById("weather");
